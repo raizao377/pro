@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     outline: none;
@@ -8,22 +8,22 @@
     box-sizing: border-box;
 }
 
-img{
+img {
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #0f0c14;
 }
 
-nav{
+nav {
     max-width: 1500px;
     margin: auto;
     padding: -2rem -1rem;
@@ -33,28 +33,28 @@ nav{
     gap: -3rem -2rem;
 }
 
-.nav-logo{
+.nav-logo {
     max-width: 1000px;
     width: 19%;
-    margin: -100px;
+    margin: -80px;
     margin-top: -5px;
-    margin-left: -10%;
+    margin-left: 2%;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 4rem;
 }
 
-.link a{
+.link a {
     position: relative;
     padding-bottom: 0.75rem;
     color: #fff;
 }
 
-.link a::after{
+.link a::after {
     content: "";
     position: absolute;
     height: 2px;
@@ -65,11 +65,11 @@ nav{
     transition: all 0.3s ease;
 }
 
-.link a:hover::after{
+.link a:hover::after {
     width: 70%;
 }
 
-.btn{
+.btn {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
@@ -79,23 +79,23 @@ nav{
     transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #03c96c;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
 }
 
-.blur{
+.blur {
     position: center;
     box-shadow: 0 0 1000px 90px #00ff88;
     z-index: 100;
 }
 
-header{
+header {
     position: relative;
     padding-top: 2rem;
     display: grid;
@@ -104,14 +104,14 @@ header{
     gap: 2rem;
 }
 
-header .content h4{
+header .content h4 {
     margin-bottom: 1rem;
     color: #ccc;
     font-size: 1rem;
     font-weight: 600;
 }
 
-header .content h1{
+header .content h1 {
     color: #fff;
     margin-bottom: 1rem;
     font-size: 3rem;
@@ -119,21 +119,21 @@ header .content h1{
     line-height: 4rem;
 }
 
-header .content h1 span{
+header .content h1 span {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
 
-header .content p{
+header .content p {
     margin-bottom: 2rem;
     color: #ccc;
 }
 
-header .img{
+header .img {
     position: relative;
 }
 
-header .img::before{
+header .img::before {
     content: "o";
     position: absolute;
     top: 0;
@@ -147,12 +147,12 @@ header .img::before{
     z-index: -100;
 }
 
-header .imagens img{
+header .imagens img {
     max-width: 600px;
     margin: auto;
 }
 
-section .header{
+section .header {
     margin-bottom: 1rem;
     color: #fff;
     text-align: center;
@@ -160,7 +160,7 @@ section .header{
     font-weight: 600;
 }
 
-.features{
+.features {
     margin-top: 4rem;
     display: flex;
     height: -400px;
@@ -168,7 +168,7 @@ section .header{
     gap: 2rem;
 }
 
-.features .card{
+.features .card {
     background-color: #27272a;
     padding: 3.2rem;
     border: 2px solid transparent;
@@ -176,12 +176,12 @@ section .header{
     transition: all 0.3s ease;
 }
 
-.features .card:hover{
+.features .card:hover {
     background-color: #323232;
     border-color: #fff;
 }
 
-.features .card span{
+.features .card span {
     display: inline-block;
     background-color: #00ff88;
     padding: 2px 9px;
@@ -191,43 +191,43 @@ section .header{
     border-radius: 5px;
 }
 
-.features .card h4{
+.features .card h4 {
     margin-bottom: 0.5rem;
     color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
 }
 
-.features .card p{
+.features .card p {
     color: #ccc;
     margin-bottom: 1rem;
     padding: auto;
 }
 
-.features .card a{
+.features .card a {
     color: #fff;
     transition: all 0.3s ease;
 }
 
-.features .card a:hover{
+.features .card a:hover {
     color: #00ff88;
 }
 
-.sub-header{
+.sub-header {
     max-width: 600px;
     margin: auto;
     text-align: center;
     color: #ccc;
 }
 
-.pricing{
+.pricing {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.pricing .card{
+.pricing .card {
     padding: 3rem 2rem;
     background-color: #27272a;
     display: flex;
@@ -237,24 +237,24 @@ section .header{
     transition: all 0.3s ease;
 }
 
-.pricing .card:hover{
+.pricing .card:hover {
     background-color: #323232;
     border-color: #fff;
 }
 
-.pricing .card .content{
+.pricing .card .content {
     flex: 1;
     margin-bottom: 2rem;
 }
 
-.pricing .card h4{
+.pricing .card h4 {
     margin-bottom: 1rem;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.pricing .card h3{
+.pricing .card h3 {
     color: #fff;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
@@ -262,46 +262,46 @@ section .header{
     border-bottom: 2px dashed #fff;
 }
 
-.pricing .card p{
+.pricing .card p {
     color: #fff;
     margin-bottom: 0.75rem;
 }
 
-.pricing .card p i{
+.pricing .card p i {
     color: #ccc;
     font-size: 1.2rem;
     margin-right: 0.3rem;
 }
 
-.pricing .card button{
+.pricing .card button {
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
 }
 
-.pricing .card button:hover{
+.pricing .card button:hover {
     background-color: #00ff88;
     border-color: #00ff88;
 }
 
-footer{
+footer {
     position: relative;
     display: grid;
     grid-template-columns: 400px repeat(3, 1fr);
     gap: 2rem;
 }
 
-footer .column .logo{
+footer .column .logo {
     max-width: 200px;
     margin-bottom: 1rem;
 }
 
-footer .column p{
+footer .column p {
     color: #ccc;
     margin-bottom: 2rem;
 }
 
-.copyright{
+.copyright {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
@@ -310,51 +310,45 @@ footer .column p{
     text-align: center;
 }
 
-@media (width < 900px){
-    .nav-links{
+/* Correção nas media queries */
+@media (max-width: 900px) {
+    .nav-links {
         display: none;
     }
-    header{
-        grid-template-columns: (1, 1fr);
+    header {
+        grid-template-columns: 1fr; /* Corrigido */
     }
-    header .imagens{
-        grid-area: 1/1/2/2;
-    }
-    .features{
+    .features {
         grid-template-columns: repeat(2, 1fr);
     }
-    .pricing{
+    .pricing {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    footer{
+    footer {
         grid-template-columns: 1fr 200px;
     }
 }
 
-@media (width < 600px){
-    header .imagens::before{
+@media (max-width: 600px) {
+    header .imagens::before {
         display: none;
     }
 
-    .features{
+    .features {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .pricing{
+    .pricing {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    footer{
+    footer {
         grid-template-columns: 1fr 150px;
     }
-    
 }
 
-
-
-
-
+/* Estilização do Menu Dropdown */
 .menu-container {
     position: relative;
     display: inline-block;
@@ -373,7 +367,7 @@ footer .column p{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -387,11 +381,25 @@ footer .column p{
 .menu-content a:hover {
     background-color: #f1f1f1;
 }
-#closer{
+
+/* Mostrar menu quando passar o mouse */
+.menu-container:hover .menu-content {
+    display: block;
+}
+
+#closer {
     color: #03c96c;
     background-color: #0f0c14;
 }
-#btlog{
-    color: #00ff88;
-    
+
+#btlog {
+    margin-top: -0.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+#btlog:hover {
+    background-color: #03c96c;
+    border-color: #03c96c;
 }
